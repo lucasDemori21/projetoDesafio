@@ -1,0 +1,136 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: rgb(99, 98, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    min-height: 100vh;
+}
+.link{
+    border-radius: 4px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+    background-color: grey;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 30%;
+    cursor: pointer;
+    
+}
+.desafio{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: white;
+}
+
+.formulario{
+    width: 90%;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 2%;
+}
+.escolha{
+    border: 1px;
+    border-radius: 8px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    color: white;
+}
+
+.campo{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5%;
+}
+.desafioform{
+    width: 100%;
+}
+
+input{
+    text-align: center;
+    margin: 3%;
+    width: 70%;
+    border-radius: 6px;
+    background-color: rgb(168, 166, 166);
+    height: 25px;
+}
+
+.botao{
+    width: 35%;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(121, 118, 118);
+    border-radius: 5px;
+    margin: 0 0 3% 0;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(153, 150, 150);
+}
+
+.botaovoltar{
+    width: 30%;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: honeydew;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 1%;
+}
+
+.botaovoltar:hover{
+    background-color: lightgrey;
+}
+
+#tabela{
+    margin: 0 0 12% 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    padding-inline: 1.5%;
+}
+
+#resultadoPI{
+    margin: 0 0 10% 0;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    background-color: slategrey;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-inline: 1%;
+}
